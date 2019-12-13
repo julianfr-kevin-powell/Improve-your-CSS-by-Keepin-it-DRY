@@ -1,0 +1,89 @@
+@import 'https://fonts.googleapis.com/css?family=Cormorant+Infant:700,700i|Lato:400,700&display=swap';
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-family: 'Cormorant Infant', serif;
+  font-weight: 700;
+  font-size: 4rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 0;
+  font-weight: 400;
+}
+
+p {
+  line-height: 1.75rem;
+}
+
+a {
+  color: inherit;
+}
+
+section {
+  padding: 3rem 0;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.start {
+  background-color: hsl(0, 0%, 31.25%);
+  color: hsl(0, 0%, 50%);
+}
+
+.middle {
+  background-color: hsl(0, 0%, 50%);
+  color: hsl(177, 100%, 50%);
+  padding: 5rem 0;
+}
+
+.end {
+  background-color: hsl(0, 0%, 69.75%);
+  color: hsl(0, 0%, 50%);
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  transition: 250ms;
+}
+
+.btn-normal {
+  background-color: hsl(0, 0%, 25%);
+  box-shadow: 0px 2px 0px 0px hsla(0, 0%, 0.75%);
+}
+
+.btn-normal:hover {
+  background-color: hsl(0, 0%, 43.75%);
+  color: hsl(0, 0%, 25%);
+  box-shadow: 0px 10px 5px 4px hsla(0, 0%, 0%, 0.6725);
+  border-bottom: 2px solid hsl(0, 0%, 25%);
+  transform: translateY(-10px);
+}
+
+.btn-ghost {
+  background-color: hsl(0, 0%, 25%);
+}
+
+.btn-ghost:hover {
+  background-color: hsl(0, 0%, 43.75%);
+  color: hsl(177, 100%, 56.25%);
+}
+
+.btn-awesome {
+  background-color: hsl(0, 0%, 75%);
+}
+
+.btn-awesome:hover {
+  background-color: hsl(0, 0%, 56.25%);
+  color: hsl(0, 0%, 75%);
+}
